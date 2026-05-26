@@ -1,1 +1,3 @@
 # Erasmus
+
+Documenting my journey
