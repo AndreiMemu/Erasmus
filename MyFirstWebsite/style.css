@@ -15,12 +15,15 @@ a{
     text-decoration: none;
 }
 
-.text{
-    color: red;
-}
 
 img{
     display: flex;
+}
+
+span{
+    background-color: rgb(147, 147, 147);
+    padding: 2px;
+    border-radius: 5px;
 }
 
 
