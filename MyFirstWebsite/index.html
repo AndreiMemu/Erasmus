@@ -139,8 +139,65 @@
               </h3>
             </div>
           </section>
+          <section id="blog">
+            <article>
+              <figure>
+                <img
+                  src="img/trattoria.jpg"
+                  alt="image of the post"
+                  width="100px"
+                />
+              </figure>
+            </article>
+          </section>
         </main>
+
+        <footer>
+          <div id="left-part">
+            <h4>Subscribe</h4>
+            <input type="email" placeholder="Type email here" />
+          </div>
+
+          <div id="right-part">
+            <h4>Social Networks</h4>
+            <ul id="socials">
+              <li>GitHub</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </div>
+
+    <!-- Forum -->
+    <!-- We use it to get information from the user -->
+    <h3>Forms in HTML</h3>
+    <form action="script.js" method="post">
+      <label for="name">Name:</label>
+      <input 
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name:" />
+        <label for="email">Email:</label>
+        <input 
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email:">
+
+        <label for="password">Password:</label>
+        <input 
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password:">
+
+        <button type="submit">Send the form</button>
+        <button type="reset">Redo the form</button>
+
+            
+    </form>
   </body>
 </html>
