@@ -1,0 +1,71 @@
+/* Types of selectors in CSS */
+
+/* Universal selector */
+
+*{
+    color: green;
+}
+
+/* Element selectors */
+
+p{
+    margin-bottom: 30px;
+    border: 1px solid rgb(246, 2, 116);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* class selector */
+/* Syntax:
+.className{
+}
+ */
+
+.rojo{
+    color: red;
+}
+
+.grande{
+    font-size: 30px;
+}
+
+.container{
+    border: 4px solid lightsalmon;
+    padding: 5px;
+    border-style: double;
+}
+
+/* ID selectors */
+/* Syntax:
+#idName{
+}
+ */
+
+#unico{
+    background-color: bisque;
+}
+
+/* Descendant selectors */
+/* Applies styles to direct and indirect sons of the container element*/
+
+.container p{
+    color:lightgreen;
+    font-weight: bold;
+}
+
+.container div p{
+    background-color: cyan;
+}
+
+/* Direct sons */
+/* Only applies to the direct sons of the container */
+.container > p{
+    font-size: 40px;
+}
+
+/* Adiacent elements */
+/* Applies styles  */
+
+p + .container{
+    background-color: lightgoldenrodyellow;
+}
