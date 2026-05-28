@@ -1,3 +1,10 @@
+*{
+    background: #f5f0e8;      
+    color: #2c1810;           
+    accent: #8b4513;          
+    border-color: #d4a96a;    
+}
+
 body{
     min-height: 100vh;
     display: flex;
@@ -14,7 +21,7 @@ header{
 }
 
 #logo{
-    padding: 0;
+    margin: 0px;
 }
 
 
@@ -39,6 +46,19 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    align-self: flex-start;
+    padding-left: 10px;
+}
+
+#description{
+    font-size: 25px;
 }
 
 #content{
