@@ -1,0 +1,70 @@
+/* Configure the basic styles first */
+
+*{
+    background-color: black;
+    color: green;
+}
+
+html{
+    font-family: monospace;
+
+}
+
+div{
+    width: 100%;
+    background: rgb(50, 51, 49);
+    padding: 15px;
+}
+
+input{
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+/* Converting link into a button */
+
+a{
+    width: 150px;
+    background: chartreuse;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Finish the basic styling */
+/* Pseudo-classes */
+/* When something happens the style changes, also depending on the document position */
+/* Syntax:
+selector:pseudo-class{
+}
+*/
+
+a:hover{
+    background: green;
+    color: grey;
+    box-shadow: 4px 2px lightgreen;
+}
+
+input:focus{
+    background-color: lightgoldenrodyellow;
+    color: lightsalmon;
+}
+
+div p:nth-child(3){
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Combining pseudo classes */
+div p:nth-child(1):hover{
+    color: rgb(250, 1, 76);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Pseudo elements */
