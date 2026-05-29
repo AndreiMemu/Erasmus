@@ -2,7 +2,8 @@
     background: #f5f0e8;      
     color: #2c1810;           
     accent: #8b4513;          
-    border-color: #d4a96a;    
+    border-color: #d4a96a;
+    box-sizing: border-box;    
 }
 
 body{
@@ -36,7 +37,6 @@ ul{
 section{
     border: 1px solid;
     border-radius: 5px;
-    text-align: center;
     flex: 1;
     margin-top: 5px;
 }
@@ -48,12 +48,19 @@ main{
     flex: 1;
 }
 
-#hero{
+#about-guitars,
+#guitar-styles{
     display: flex;
     flex-direction: column;
+    text-align: center;
     font-family: "Imperial Script", sans-serif;
 }
-#title{
+
+span{
+    border-bottom: 2px solid;
+}
+
+.title{
     align-self: flex-start;
     padding-left: 10px;
     font-size: 50px;
@@ -75,11 +82,22 @@ main{
     gap: 5px;
 }
 
-#card{
-    flex: 1 1 250px;
+.guitar{
+    height: fit-content;
+    margin: 0;
     border: 1px solid;
     border-radius: 5px;
-    flex-shrink: 0;
+    padding: 5px;
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2{
+    align-self: flex-start;
 }
 
 footer{
