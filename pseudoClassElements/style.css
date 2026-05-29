@@ -68,3 +68,27 @@ div p:nth-child(1):hover{
 }
 
 /* Pseudo elements */
+/* Applies style or changes the content to the indicated element */
+/* Syntax:
+selector::pseudo-element{}
+ */
+p::first-letter{
+    color: rgb(250, 1, 76);
+    font-size: 25px;
+}
+
+p::before{
+    content: '🇷🇴 👉';
+}
+
+p::after{
+    content: '🎶';
+}
+
+::placeholder{
+    color: white;
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
