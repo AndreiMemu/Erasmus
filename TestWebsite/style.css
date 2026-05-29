@@ -1,123 +1,119 @@
-*{
-    background: #f5f0e8;      
-    color: #2c1810;           
-    accent: #8b4513;          
-    border-color: #d4a96a;
-    box-sizing: border-box;    
+* {
+  background: #f5f0e8;
+  color: #2c1810;
+  accent: #8b4513;
+  border-color: #d4a96a;
+  box-sizing: border-box;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-header{
-    display: flex;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 4px;
-    align-items: center;
-    justify-content: space-between;
+header {
+  display: flex;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 4px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#logo{
-    margin: 0px;
+#logo {
+  margin: 0px;
 }
 
-
-ul{
-    display: flex;
-    list-style: none;
-    gap: 5px;
-    font-weight: bold;
+ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  font-weight: bold;
 }
 
-
-section{
-    border: 1px solid;
-    border-radius: 5px;
-    flex: 1;
-    margin-top: 5px;
+section {
+  border: 1px solid;
+  border-radius: 5px;
+  flex: 1;
+  margin-top: 5px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
 }
 
 #about-guitars,
-#guitar-styles{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: "Imperial Script", sans-serif;
+#guitar-styles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Imperial Script", sans-serif;
 }
 
-span{
-    border-bottom: 2px solid;
+span {
+  border-bottom: 2px solid;
 }
 
-.title{
-    align-self: flex-start;
-    padding-left: 10px;
-    font-size: 50px;
-
+.title {
+  align-self: flex-start;
+  padding-left: 10px;
+  font-size: 50px;
 }
 
-#title span{
-    border-bottom: 2px solid;
+#title span {
+  border-bottom: 2px solid;
 }
 
-#description{
-    font-size: 40px;
-    padding-right: 10px;
+#description {
+  font-size: 40px;
+  padding-right: 10px;
 }
 
-#content{
-    display: flex;
-    padding: 5px;
-    gap: 5px;
+#content {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
 }
 
-.guitar{
-    height: fit-content;
-    margin: 0;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
+.guitar {
+  height: fit-content;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
+.info {
+  display: flex;
+  flex-direction: column;
 }
 
-.info h2{
-    align-self: flex-start;
+.info h2 {
+  align-self: flex-start;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    border-radius: 5px;
-    margin-top: 5px;
-
+footer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-a:link, 
-a:visited{
-    color: gray;
+a:link,
+a:visited {
+  color: gray;
 }
 
-a:active{
-    color:rgb(90, 90, 90);
+a:active {
+  color: rgb(90, 90, 90);
 }
