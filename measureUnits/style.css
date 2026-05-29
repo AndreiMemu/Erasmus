@@ -1,9 +1,88 @@
 *{
-    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    font-family: monospace;
+    font-size: 20px;
+}
+.container{
+    border: 2px solid green;
+    margin-bottom: 24px;
+    padding: 16px;
+}
 
 
+.box{
+    border: 1px solid greenyellow;
+    padding: 20px;
+    margin-bottom: 16px;
+    background: burlywood;
+}
+
+.box-px{
+    width: 200px;
+}
+
+
+/* Relative measurements */
+/* Measures that change related to some elements, the most common ones are the father or root element. The measure that we take is the font-size of the element. */
+
+/* Procentage */
+.box-percent{
+    width: 50%;
+}
+
+/* rem */
+/* Related to the size of the font of the root element. The default one is the html element
+Ex:
+html{
+    font-size: 16px;
+}
+
+1rem = 16px;
+2rem = 32px;
+1.5rem = 24px;
+*/
+
+.box-rem{
+    width: 15rem;
+}
+
+/* em */
+/* Measure unit relative to the font size of its parent element
+Ex:
+.box-main{
+    font-size: 20px;
+}
+
+1em = 20px
+2em = 40px
+1.2em = 24px
+1.5rem = 30px (html font-size = 20px)
+ */
+
+.box-em{
+    font-size: 25px;
+    width: 3em;
+}
+
+/* viewport width */
+/* Measure unit relative to the width of the viewport */
+/*
+Ex:
+viewport width = 1000px;
+10vw = 10% of the viewport = 100px; 
+ */
+.box-vw{
+    width: 30vw;
+}
+
+/* viewport height */
+/* Is the same as vw but with the height of the viewport */
+
+.box-vh{
+    height: 20vh;
+}
