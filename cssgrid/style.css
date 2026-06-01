@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1,
+h2{
+    background-color: orangered;
+    color: black;
+}
+
+.item{
+    background-color: black;
+    color: greenyellow;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+
+span{
+    border: 1px solid greenyellow;
+    padding: 20px;
+}
