@@ -4,3 +4,44 @@
     box-sizing: border-box;
 }
 
+.container{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    /* display : block; default in the div container, header etc*/
+    display: flex;
+}
+
+.item{
+    width: 100px;
+    background-color: lightsalmon;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* The next styles are the styles that you apply to the container. They affect all the direct children */
+
+/* flex-direction property */
+.column{
+    flex-direction: column;
+}
+
+/* Center the elements horizontally*/
+
+.center{
+    justify-content: center;
+}
+
+/* Center the elements vertically */
+
+.small{
+    height: 100px;
+}
+
+.align{
+    align-items: center;
+}
