@@ -22,7 +22,104 @@
 .capa{
     border: 1px solid red;
     padding: 10px;
-    margin: 5px;
 }
 
 /* Finish the principal styles */
+
+/* position: static; */
+/* The position to the default position of the elements in the natural order of the html */
+
+/* position: relative; */
+/* Similar to static but we can use the properties top, bottom, right, left, but the space that remains unoccupied cannot be fitted by any elements. */
+
+.caja-relative{
+    width: 80%;
+    background: lightcyan;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+/* position: absolute; */
+/* This is relative to its ancestor that doesnt have the position static.
+The empty space can be fit by any other elements. If we do not have an ancestor that has its postitioning different from static, we will use the body element for refference.
+We also have the top, bottom, right, left properties to position the elements */
+
+.contenedor-padre{
+    height: 100px;
+    position: relative;
+}
+
+.hijo-absolute{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+/* position: fixed; */
+/* The element remains fixed in the indicated position in the html fluxe even though it is scrolled. The properties top, bottom, right, left to fix the positioning.*/
+
+.button-fixed{
+    background-color: lightsalmon;
+    color: white;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+/* postion: sticky; */
+/* Keeps the static positioning set in the html and when it reaches the position indicated by the top, bottom, right, left properties, it becomes fixed*/
+
+.contenedor-scroll{
+    height: 150px;
+    overflow: auto;
+}
+
+.elemento-sticky{
+    background-color: bisque;
+    position: sticky;
+    top: 0px;
+}
+
+/* z-index property */
+/* Indicates the layer where we want to position the element */
+
+.contenedor-zindex{
+    position: relative;
+    height: 150px;
+}
+
+.capa{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.capa-1{
+    background-color: blue;
+    color: beige;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.capa-2{
+    background-color: red;
+    color: beige;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.capa-3{
+    background-color: green;
+    color: beige;
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+}
+
